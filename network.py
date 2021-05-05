@@ -62,7 +62,7 @@ class Network():
     
     y=self.model.predict(x)
     y=y[0]
-    return np.argmax(y)+1
+    return np.argmax(y)
     
       
 
